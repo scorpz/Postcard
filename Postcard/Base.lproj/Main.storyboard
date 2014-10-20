@@ -104,6 +104,15 @@
                                     <rect key="frame" x="16" y="72" width="314" height="123"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aN6-ak-VDy">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="17" y="224" width="226" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="EFc-qE-a3S"/>
                                 <exclude reference="RGy-b7-roi"/>
                                 <exclude reference="5G6-ff-1sy"/>
+                                <exclude reference="aN6-ak-VDy"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="EFc-qE-a3S"/>
                                 <include reference="RGy-b7-roi"/>
                                 <include reference="5G6-ff-1sy"/>
+                                <include reference="aN6-ak-VDy"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="11k-qe-AEZ" id="sit-ge-bWq"/>
                         <outlet property="mailButton" destination="RGy-b7-roi" id="s40-jh-Has"/>
                         <outlet property="messageLabel" destination="5G6-ff-1sy" id="PUE-Oc-vHv"/>
+                        <outlet property="nameLabel" destination="aN6-ak-VDy" id="Y3D-CW-qKw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -153,6 +165,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T3Y-k1-7ad" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-465" y="237"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NAh-as-xnM">
+            <objects>
+                <viewController id="AuV-3L-Wnw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sRg-an-sew"/>
+                        <viewControllerLayoutGuide type="bottom" id="hT3-m4-S2S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gqb-fP-s3g">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l7X-3P-V4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
